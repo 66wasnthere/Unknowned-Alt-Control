@@ -1,9 +1,7 @@
--- removed the whitelist part.
-
 getgenv().Settings = {
     host = 1234567,
     prefix = '/',
-    admsg = 'wsg',
+    admsg = '.gg/RGjYKffDdu',
     fps = 3
 }
 
