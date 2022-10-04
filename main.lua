@@ -46,7 +46,7 @@ else
     TextLabel.Size = UDim2.new(0, 200, 0, 50)
     TextLabel.Font = Enum.Font.GothamMedium
     TextLabel.Text = game:service"Players".LocalPlayer.Name
-    TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel.TextColor3 = Color3.fromRGB(168, 0, 0)
     TextLabel.TextSize = 30.000
     loadstring(game:HttpGet("https://raw.githubusercontent.com/66wasnthere/Unknowned-Alt-Control/main/lowgfx.lua"))()
 end
@@ -55,12 +55,12 @@ game:service"Players".LocalPlayer.Idled:Connect(function()
     wait(1)
     game:service"VirtualUser":Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fzW2s/1SvY/main/modules/anticheat.lua"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fzW2s/1SvY/main/modules/package.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/66wasnthere/Unknowned-Alt-Control/main/anticheat.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/66wasnthere/Unknowned-Alt-Control/main/module.lua"))()
 
 -- env handlers
 --cmds
-local GithubUrl = 'https://raw.githubusercontent.com/fzW2s/1SvY/main/cmds/'
+local GithubUrl = 'https://raw.githubusercontent.com/66wasnthere/Unknowned-Alt-Control/main/commands/'
 getgenv().BRING_LOADED = false
 getgenv().DROP_LOADED = false
 getgenv().STOP_LOADED = false
