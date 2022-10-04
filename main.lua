@@ -48,7 +48,7 @@ else
     TextLabel.Text = game:service"Players".LocalPlayer.Name
     TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
     TextLabel.TextSize = 30.000
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/fzW2s/1SvY/main/modules/lowgfx.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/66wasnthere/Unknowned-Alt-Control/main/lowgfx.lua"))()
 end
 game:service"Players".LocalPlayer.Idled:Connect(function()
     game:service"VirtualUser":Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
