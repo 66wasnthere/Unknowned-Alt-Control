@@ -60,7 +60,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/66wasnthere/Unknowned
 
 -- env handlers
 --cmds
-local GithubUrl = 'https://raw.githubusercontent.com/66wasnthere/Unknowned-Alt-Control/main/commands/'
+local GithubUrl = 'https://raw.githubusercontent.com/66wasnthere/Unknowned-Alt-Control/main/cmds/'
 getgenv().BRING_LOADED = false
 getgenv().DROP_LOADED = false
 getgenv().STOP_LOADED = false
